@@ -4,7 +4,7 @@ Some of the caches are Redis, memcache, infinispan etc. Here caches are implemen
 
 - L1 cache
 	- implemented as "InternalCache" in enclosing project.
-	- Used ConcerrentHashMap as databastructure.
+	- Used ConcerrentHashMap as datastructure.
 	- Used Size and TTL configurations.
 	- used TTL as cache eviction policy.
 	
